@@ -1,0 +1,246 @@
+{
+  "_instructions": "Add your projects.",
+  "sectionTitle": "Featured Work",
+  "subtitle": "A selection of projects I've designed and developed",
+  "projects": [
+    {
+      "title": "MEDCOMPARE – AI Powered Medication Data Benchmarking Tool",
+      "category": "Data Science",
+      "description": "Built a real-time Streamlit tool benchmarking medication data from LLMs using semantic similarity, fuzzy matching, and biostatistics; aligned outputs with FDA and RxNorm standards; supported batch evaluation, scoring, and FHIR exports for clinical review.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "tags": [
+        "Streamlit",
+        "LLMs",
+        "FHIR"
+      ],
+      "icon": "fas fa-brain",
+      "highlights": [
+        "User-centered design approach",
+        "Responsive and accessible"
+      ],
+      "links": {
+        "live": "",
+        "github": "",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": true
+    },
+    {
+      "title": "Classification with XGBoost + ONNX Deployment",
+      "category": "Software Development",
+      "description": "Developed an XGBoost classifier on 1.2M entries, outperforming baselines; applied scaling, outlier handling, and data prep; converted model to ONNX for real-time edge/cloud deployment, showcasing scalable predictive analytics in IoT and embedded environments.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "tags": [
+        "XGBoost",
+        "ONNX"
+      ],
+      "icon": "fas fa-project-diagram",
+      "highlights": [
+        "User-centered design approach",
+        "Responsive and accessible"
+      ],
+      "links": {
+        "live": "",
+        "github": "",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": false
+    },
+    {
+      "title": "financial_advisor_llm",
+      "category": "Backend Development",
+      "description": "Learning project built with modern web technologies",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "tags": [
+        "Python",
+        "Jupyter Notebook",
+        "Makefile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "highlights": [
+        "User-centered design approach",
+        "Responsive and accessible"
+      ],
+      "links": {
+        "live": "https://github.com/deepak-rambarki/financial_advisor_llm",
+        "github": "https://github.com/deepak-rambarki/financial_advisor_llm",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": false
+    },
+    {
+      "title": "yolov10",
+      "category": "Backend Development",
+      "description": "Modern web application demonstrating clean code principles",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "tags": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "highlights": [
+        "User-centered design approach",
+        "Responsive and accessible"
+      ],
+      "links": {
+        "live": "https://github.com/deepak-rambarki/yolov10",
+        "github": "https://github.com/deepak-rambarki/yolov10",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": false
+    },
+    {
+      "title": "text-analysis-using-nlp-streamlit",
+      "category": "Backend Development",
+      "description": "Personal development project using industry best practices",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "tags": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "highlights": [
+        "User-centered design approach",
+        "Responsive and accessible"
+      ],
+      "links": {
+        "live": "https://github.com/deepak-rambarki/text-analysis-using-nlp-streamlit",
+        "github": "https://github.com/deepak-rambarki/text-analysis-using-nlp-streamlit",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": false
+    },
+    {
+      "title": "sentiment-analysis-webapp-sagemaker",
+      "category": "Backend Development",
+      "description": "Interactive application built for continuous learning",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "tags": [
+        "Jupyter Notebook",
+        "Python",
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "highlights": [
+        "User-centered design approach",
+        "Responsive and accessible"
+      ],
+      "links": {
+        "live": "https://github.com/deepak-rambarki/sentiment-analysis-webapp-sagemaker",
+        "github": "https://github.com/deepak-rambarki/sentiment-analysis-webapp-sagemaker",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": false
+    },
+    {
+      "title": "fraud-detection-using-machine-learning",
+      "category": "Backend Development",
+      "description": "Personal project for exploring modern development practices",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "tags": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "highlights": [
+        "User-centered design approach",
+        "Responsive and accessible"
+      ],
+      "links": {
+        "live": "https://github.com/deepak-rambarki/fraud-detection-using-machine-learning",
+        "github": "https://github.com/deepak-rambarki/fraud-detection-using-machine-learning",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": false
+    },
+    {
+      "title": "model-interpretability-for-machine-learning-models",
+      "category": "Development",
+      "description": "Portfolio project showcasing development capabilities",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "tags": [],
+      "icon": "fas fa-project-diagram",
+      "highlights": [
+        "User-centered design approach",
+        "Responsive and accessible"
+      ],
+      "links": {
+        "live": "https://github.com/deepak-rambarki/model-interpretability-for-machine-learning-models",
+        "github": "https://github.com/deepak-rambarki/model-interpretability-for-machine-learning-models",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": false
+    },
+    {
+      "title": "brain-mapping-eeg-classification",
+      "category": "Development",
+      "description": "Brain Mapping using EEG Signal Classification - A 2013-era implementation using 2D DWT and pattern matching for normal/abnormal EEG classification",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "tags": [],
+      "icon": "fas fa-project-diagram",
+      "highlights": [
+        "User-centered design approach",
+        "Responsive and accessible"
+      ],
+      "links": {
+        "live": "https://github.com/deepak-rambarki/brain-mapping-eeg-classification",
+        "github": "https://github.com/deepak-rambarki/brain-mapping-eeg-classification",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": false
+    },
+    {
+      "title": "deepak-rambarki.github.io",
+      "category": "Data Science",
+      "description": "GitHub repository: deepak-rambarki.github.io",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "tags": [
+        "HTML",
+        "CSS",
+        "SCSS",
+        "JavaScript",
+        "Shell"
+      ],
+      "icon": "fas fa-brain",
+      "highlights": [
+        "User-centered design approach",
+        "Responsive and accessible"
+      ],
+      "links": {
+        "live": "https://github.com/deepak-rambarki/deepak-rambarki.github.io",
+        "github": "https://github.com/deepak-rambarki/deepak-rambarki.github.io",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": false
+    },
+    {
+      "title": "html-css-js-Deepak-portfolio-1",
+      "category": "Development",
+      "description": "GitHub repository: html-css-js-Deepak-portfolio-1",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "tags": [],
+      "icon": "fas fa-project-diagram",
+      "highlights": [
+        "User-centered design approach",
+        "Responsive and accessible"
+      ],
+      "links": {
+        "live": "https://github.com/deepak-rambarki/html-css-js-Deepak-portfolio-1",
+        "github": "https://github.com/deepak-rambarki/html-css-js-Deepak-portfolio-1",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": false
+    }
+  ]
+}

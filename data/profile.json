@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "Deepak Rambarki",
+    "title": "AI Engineer",
+    "bio": "Data Engineer with 5+ years of experience designing and maintaining scalable batch and real-time data pipelines for high-volume transactional systems. Strong expertise in Python, SQL, Apache Spark, Kafka, Airflow, and dbt, with hands-on experience building cloud-native data platforms on AWS, Azure, and GCP. Proven ability to process 10M+ daily records, model enterprise data warehouses, and deliver reliable, governed datasets supporting fraud analytics, risk reporting, and business intelligence. Adept at collaborating with Risk, Compliance, and Analytics teams to ensure data quality, security, and performance at scale."
+  },
+  "contact": {
+    "email": "rambarkideepak@gmail.com",
+    "phone": "(940) 843-7994",
+    "githubUsername": "deepak-rambarki",
+    "linkedin": ""
+  },
+  "siteConfig": {
+    "domain": "",
+    "title": "Deepak Rambarki - Portfolio",
+    "description": "Data Engineer with 5+ years of experience designing and maintaining scalable batch and real-time data pipelines for high-volume transactional systems. Strong expertise in Python, SQL, Apache Spark, Kafka, Airflow, and dbt, with hands-on experience building cloud-native data platforms on AWS, Azure, and GCP. Proven ability to process 10M+ daily records, model enterprise data warehouses, and deliver reliable, governed datasets supporting fraud analytics, risk reporting, and business intelligence. Adept at collaborating with Risk, Compliance, and Analytics teams to ensure data quality, security, and performance at scale."
+  }
+}

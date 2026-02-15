@@ -1,0 +1,46 @@
+{
+  "_instructions": "Add your work experience here. Copy the experience object for each job.",
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "AI Engineer",
+      "company": "Brex",
+      "period": "12/2024 – Present",
+      "location": "",
+      "description": "Designed and deployed a BiLSTM-based fraud risk scoring engine, reducing fraudulent transactions by 19%. Collaborated with Risk and Compliance teams through requirement-gathering sessions to align model goals with business needs. Processed and filtered 10M+ transaction records using Python, SQL, and Spark. Extracted features like frequency, merchant category, and location deviation to support feature engineering and prepare data for AI model training. Built and trained a BiLSTM sequence model for behavioral fraud detection. Integrated SHAP for model explainability and aligned outputs with Brex’s internal audit and model governance standards for compliance transparency. Evaluated model performance using F1-score, AUC-ROC, and Precision@K. Achieved 0.87 F1-score and 0.93 AUC through iterative model tuning and validation on real-time transaction data across various customer segments. Conducted hyperparameter tuning using Optuna and Bayesian Optimization, refining sequence length, dropout rate, and learning rate. Automated retraining using SageMaker Pipelines and MLflow, triggered bi-weekly based on data drift metrics. Deployed models via AWS SageMaker and Lambda for scalable real-time inference on 3M+ daily transactions. Managed 15TB+ of data in Redshift/Snowflake and built monitoring dashboards using dbt for risk and model KPIs.",
+      "responsibilities": [
+        "Designed and deployed a BiLSTM-based fraud risk scoring engine, reducing fraudulent transactions by 19%",
+        "Collaborated with Risk and Compliance teams through requirement-gathering sessions to align model goals with business needs",
+        "Processed and filtered 10M+ transaction records using Python, SQL, and Spark",
+        "Extracted features like frequency, merchant category, and location deviation to support feature engineering and prepare data for AI model training",
+        "Built and trained a BiLSTM sequence model for behavioral fraud detection",
+        "Integrated SHAP for model explainability and aligned outputs with Brex’s internal audit and model governance standards for compliance transparency",
+        "Evaluated model performance using F1-score, AUC-ROC, and Precision@K",
+        "87 F1-score and 0",
+        "93 AUC through iterative model tuning and validation on real-time transaction data across various customer segments",
+        "Conducted hyperparameter tuning using Optuna and Bayesian Optimization, refining sequence length, dropout rate, and learning rate",
+        "Automated retraining using SageMaker Pipelines and MLflow, triggered bi-weekly based on data drift metrics",
+        "Deployed models via AWS SageMaker and Lambda for scalable real-time inference on 3M+ daily transactions",
+        "Managed 15TB+ of data in Redshift/Snowflake and built monitoring dashboards using dbt for risk and model KPIs"
+      ]
+    },
+    {
+      "title": "AI Engineer",
+      "company": "Zebronics",
+      "period": "01/2020 – 05/2023",
+      "location": "",
+      "description": "Designed and deployed a smart recommendation engine for electronic accessories, leveraging user interaction data to personalize product suggestions, leading to a 28% increase in cross-sell and upsell rates. Utilized customer purchase history, browsing patterns, and product metadata to build a hybrid recommendation model combining content-based filtering and collaborative filtering. Developed a demand forecasting model using time series analysis (Prophet, ARIMA) and machine learning (XGBoost, LSTM) to predict weekly product demand, reducing overstock by 18%. Implemented inventory optimization algorithms that dynamically adjusted restocking schedules. Integrated ML-powered personalization features into Zebronics’ website and mobile app via REST APIs. Conducted A/B testing on different personalization strategies, optimizing UI/UX and model output, leading to a 6% increase in customer retention and a 4% uplift in overall revenue. Deployed and maintained models using Azure ML, Docker, and Kubernetes for over 3M users. Deployed real-time scoring pipelines using Azure ML, Docker, Kubernetes, Kafka, and Spark Streaming to integrate churn scores directly into Verizon’s CRM systems. Collaborated with business analysts and data teams, delivering Power BI dashboards that visualized churn trends and model performance.",
+      "responsibilities": [
+        "Designed and deployed a smart recommendation engine for electronic accessories, leveraging user interaction data to personalize product suggestions, leading to a 28% increase in cross-sell and upsell rates",
+        "Utilized customer purchase history, browsing patterns, and product metadata to build a hybrid recommendation model combining content-based filtering and collaborative filtering",
+        "Developed a demand forecasting model using time series analysis (Prophet, ARIMA) and machine learning (XGBoost, LSTM) to predict weekly product demand, reducing overstock by 18%",
+        "Implemented inventory optimization algorithms that dynamically adjusted restocking schedules",
+        "Integrated ML-powered personalization features into Zebronics’ website and mobile app via REST APIs",
+        "Conducted A/B testing on different personalization strategies, optimizing UI/UX and model output, leading to a 6% increase in customer retention and a 4% uplift in overall revenue",
+        "Deployed and maintained models using Azure ML, Docker, and Kubernetes for over 3M users",
+        "Deployed real-time scoring pipelines using Azure ML, Docker, Kubernetes, Kafka, and Spark Streaming to integrate churn scores directly into Verizon’s CRM systems",
+        "Collaborated with business analysts and data teams, delivering Power BI dashboards that visualized churn trends and model performance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_instructions": "Add your education and certifications.",
+  "sectionTitle": "Education & Certifications",
+  "education": [
+    {
+      "degree": "Master in Advanced Data Analytics",
+      "institution": "University of North Texas",
+      "period": "08/2023 – 05/2025",
+      "location": "",
+      "description": "",
+      "honors": []
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Python for Data Science and Machine Learning Bootcamp",
+      "issuer": "",
+      "date": "",
+      "description": ""
+    },
+    {
+      "name": "AWS Fundamentals: Going Cloud-Native",
+      "issuer": "AWS",
+      "date": "",
+      "description": ""
+    }
+  ]
+}

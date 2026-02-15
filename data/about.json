@@ -1,0 +1,35 @@
+{
+  "_instructions": "About section.",
+  "sectionTitle": "About Me",
+  "image": "assets/images/about.jpg",
+  "content": [
+    "Data Engineer with 5+ years of experience designing and maintaining scalable batch and real-time data pipelines for high-volume transactional systems. Strong expertise in Python, SQL, Apache Spark, Kafka, Airflow, and dbt, with hands-on experience building cloud-native data platforms on AWS, Azure, and GCP.",
+    "Proven ability to process 10M+ daily records, model enterprise data warehouses, and deliver reliable, governed datasets supporting fraud analytics, risk reporting, and business intelligence. Adept at collaborating with Risk, Compliance, and Analytics teams to ensure data quality, security, and performance at scale."
+  ],
+  "highlights": [
+    {
+      "icon": "fas fa-palette",
+      "title": "Detail Oriented",
+      "description": "User-centered approach with focus on usability"
+    },
+    {
+      "icon": "fas fa-code",
+      "title": "Clean Code",
+      "description": "Writing maintainable, scalable code"
+    },
+    {
+      "icon": "fas fa-users",
+      "title": "Collaborative",
+      "description": "Strong communication skills"
+    },
+    {
+      "icon": "fas fa-lightbulb",
+      "title": "Creative Problem Solver",
+      "description": "Finding innovative solutions"
+    }
+  ],
+  "resume": {
+    "text": "Download Resume",
+    "href": "assets/files/resume.pdf"
+  }
+}

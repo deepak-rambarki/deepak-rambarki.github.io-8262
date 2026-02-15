@@ -1,0 +1,22 @@
+{
+  "_instructions": "Footer section.",
+  "text": "Designed & Built by Deepak Rambarki",
+  "copyright": "© 2026 Deepak Rambarki. All rights reserved.",
+  "links": [
+    {
+      "text": "Privacy Policy",
+      "href": "#privacy"
+    },
+    {
+      "text": "Terms",
+      "href": "#terms"
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "Email",
+      "url": "mailto:rambarkideepak@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ]
+}
