@@ -1,5 +1,4 @@
 {
-  "_instructions": "Footer section.",
   "text": "Designed & Built by Deepak Rambarki",
   "copyright": "© 2026 Deepak Rambarki. All rights reserved.",
   "links": [
@@ -17,6 +16,16 @@
       "platform": "Email",
       "url": "mailto:rambarkideepak@gmail.com",
       "icon": "fas fa-envelope"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rambarki-deepak/",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/deepak-rambarki",
+      "icon": "fab fa-github"
     }
   ]
 }
