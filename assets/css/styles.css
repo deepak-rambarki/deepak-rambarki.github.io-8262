@@ -2,27 +2,27 @@
    Modern Aesthetic Portfolio - CSS Variables
    ============================================ */
 :root {
-    /* Color Palette - Light & Pastel */
+    /* Color Palette - Clean & Professional */
     --color-bg-primary: #FFFFFF;
-    --color-bg-secondary: #FAFAFA;
-    --color-bg-tertiary: #F5F5F5;
+    --color-bg-secondary: #F8FAF9;
+    --color-bg-tertiary: #F0F4F2;
 
-    --color-text-primary: #1F2937;
-    --color-text-secondary: #6B7280;
-    --color-text-tertiary: #9CA3AF;
+    --color-text-primary: #1A2332;
+    --color-text-secondary: #5A6B7A;
+    --color-text-tertiary: #8D9CAB;
 
-    /* Accent Colors - Soft Pastels */
-    --color-accent-pink: #FF6B9D;
-    --color-accent-purple: #C084FC;
-    --color-accent-blue: #60A5FA;
-    --color-accent-green: #34D399;
-    --color-accent-yellow: #FBBF24;
-    --color-accent-coral: #FF8A80;
+    /* Accent Colors - Professional Green */
+    --color-accent-pink: #0D9668;
+    --color-accent-purple: #10B981;
+    --color-accent-blue: #3B82F6;
+    --color-accent-green: #059669;
+    --color-accent-yellow: #F59E0B;
+    --color-accent-coral: #14B8A6;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, #FF6B9D 0%, #C084FC 100%);
-    --gradient-secondary: linear-gradient(135deg, #60A5FA 0%, #34D399 100%);
-    --gradient-warm: linear-gradient(135deg, #FBBF24 0%, #FF8A80 100%);
+    --gradient-primary: linear-gradient(135deg, #0D9668 0%, #10B981 100%);
+    --gradient-secondary: linear-gradient(135deg, #3B82F6 0%, #059669 100%);
+    --gradient-warm: linear-gradient(135deg, #F59E0B 0%, #14B8A6 100%);
 
     /* Spacing */
     --spacing-xs: 0.5rem;
