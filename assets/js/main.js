@@ -97,7 +97,7 @@ async function loadHero() {
         const description = data.description || '';
         document.getElementById('hero-subtitle').textContent = summary;
         if (document.getElementById('hero-description')) {
-            document.getElementById('hero-description').textContent = description || summary;
+            document.getElementById('hero-description').textContent = description;
         }
 
         // CTA buttons - support both new nested structure and old flat array
@@ -181,7 +181,9 @@ async function loadAbout() {
         const resumeContainer = document.getElementById('about-resume');
         if (resumeContainer && data.resume) {
             resumeContainer.innerHTML = `
-                <a href="${data.resume.href}" download class="btn btn-primary">${data.resume.text}</a>
+                <a href="${data.resume.href}" download="${data.resume.download || true}" class="btn btn-primary">
+                    <i class="fas fa-download"></i> ${data.resume.text}
+                </a>
             `;
         }
     } catch (error) {
@@ -209,17 +211,26 @@ async function loadExperience() {
 
                 return `
                     <div class="experience-card">
-                        <div class="experience-header">
-                            <h3 class="experience-role">${title}</h3>
-                            <p class="experience-company">${exp.company} ${exp.location ? `• ${exp.location}` : ''}</p>
-                            <p class="experience-period">${exp.period}</p>
-                        </div>
-                        <p class="experience-description">${exp.description}</p>
-                        ${responsibilities.length > 0 ? `
-                            <ul class="experience-achievements">
-                                ${responsibilities.map(item => `<li>${item}</li>`).join('')}
-                            </ul>
+                        ${exp.image ? `
+                            <div class="experience-image" style="background-image: url('${exp.image}');">
+                                <div class="experience-image-overlay">
+                                    <span class="experience-period-badge">${exp.period}</span>
+                                </div>
+                            </div>
                         ` : ''}
+                        <div class="experience-body">
+                            <div class="experience-header">
+                                <h3 class="experience-role">${title}</h3>
+                                <p class="experience-company">${exp.company} ${exp.location ? `• ${exp.location}` : ''}</p>
+                                ${!exp.image ? `<p class="experience-period">${exp.period}</p>` : ''}
+                            </div>
+                            <p class="experience-description">${exp.description}</p>
+                            ${responsibilities.length > 0 ? `
+                                <ul class="experience-achievements">
+                                    ${responsibilities.map(item => `<li>${item}</li>`).join('')}
+                                </ul>
+                            ` : ''}
+                        </div>
                     </div>
                 `;
             }).join('');
@@ -317,21 +328,21 @@ async function loadSkills() {
         if (categoriesContainer && data.categories) {
             categoriesContainer.innerHTML = data.categories.map(category => `
                 <div class="skill-category">
-                    <div class="skill-category-header">
-                        <i class="${category.icon}"></i>
-                        <h3 class="skill-category-name">${category.name}</h3>
-                    </div>
-                    ${category.skills.map(skill => `
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">${skill.name}</span>
-                                <span class="skill-level-text">${skill.level}%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-bar-fill" style="width: ${skill.level}%"></div>
+                    ${category.image ? `
+                        <div class="skill-category-image" style="background-image: url('${category.image}');">
+                            <div class="skill-category-image-overlay">
+                                <i class="${category.icon}"></i>
                             </div>
                         </div>
-                    `).join('')}
+                    ` : ''}
+                    <div class="skill-category-body">
+                        <h3 class="skill-category-name">${category.name}</h3>
+                        <div class="skill-tags">
+                            ${category.skills.map(skill => `
+                                <span class="skill-tag">${skill.name}</span>
+                            `).join('')}
+                        </div>
+                    </div>
                 </div>
             `).join('');
         }
@@ -347,8 +358,56 @@ async function loadEducation() {
     try {
         const response = await fetch('data/education.json');
         const data = await response.json();
-        // Education section - may not be displayed in this template
-        console.log('Education data loaded:', data);
+
+        const titleEl = document.getElementById('education-title');
+        if (titleEl) titleEl.textContent = data.sectionTitle;
+
+        // Render education cards
+        const eduGrid = document.getElementById('education-grid');
+        if (eduGrid && data.education) {
+            eduGrid.innerHTML = data.education.map(edu => `
+                <div class="education-card">
+                    ${edu.image ? `
+                        <div class="education-image" style="background-image: url('${edu.image}');">
+                            <div class="education-image-overlay">
+                                ${edu.logo ? `
+                                    <img src="${edu.logo}" alt="${edu.institution} logo" class="education-logo">
+                                ` : `
+                                    <i class="${edu.icon || 'fas fa-graduation-cap'}"></i>
+                                `}
+                            </div>
+                        </div>
+                    ` : ''}
+                    <div class="education-body">
+                        <h3 class="education-degree">${edu.degree}</h3>
+                        <p class="education-institution">${edu.institution}${edu.location ? ` | ${edu.location}` : ''}</p>
+                        <span class="education-period">${edu.period}</span>
+                        ${edu.description ? `<p class="education-description">${edu.description}</p>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Render certifications
+        const certGrid = document.getElementById('certifications-grid');
+        if (certGrid && data.certifications) {
+            certGrid.innerHTML = `
+                <h3 class="certifications-heading">Certifications</h3>
+                <div class="certifications-list">
+                    ${data.certifications.map(cert => `
+                        <div class="certification-card">
+                            <div class="certification-icon" style="color: ${cert.color || 'var(--color-accent-pink)'};">
+                                <i class="${cert.icon || 'fas fa-certificate'}"></i>
+                            </div>
+                            <div class="certification-info">
+                                <h4 class="certification-name">${cert.name}</h4>
+                                ${cert.issuer ? `<p class="certification-issuer">${cert.issuer}</p>` : ''}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
     } catch (error) {
         console.error('Error loading education:', error);
     }
@@ -519,19 +578,21 @@ function initializeNavigation() {
         });
     });
 
-    // Smooth scroll to sections
-    navLinks.forEach(link => {
+    // Smooth scroll to sections (nav links + CTA buttons)
+    const scrollLinks = document.querySelectorAll('.nav-link, .hero-cta .btn');
+    scrollLinks.forEach(link => {
         link.addEventListener('click', (e) => {
-            e.preventDefault();
             const targetId = link.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
-
-            if (targetSection) {
-                const offsetTop = targetSection.offsetTop - 80;
-                window.scrollTo({
-                    top: offsetTop,
-                    behavior: 'smooth'
-                });
+            if (targetId && targetId.startsWith('#')) {
+                e.preventDefault();
+                const targetSection = document.querySelector(targetId);
+                if (targetSection) {
+                    const offsetTop = targetSection.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
             }
         });
     });

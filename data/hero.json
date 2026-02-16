@@ -1,22 +1,21 @@
 {
-  "_instructions": "Hero section content - the first thing visitors see on your portfolio.",
   "greeting": "Hi, I'm",
   "name": "Deepak Rambarki",
-  "title": "AI Engineer",
-  "summary": "AI Engineer with 2+ years of experience specializing in Python, R, Java.",
+  "title": "AI/ML Engineer",
+  "summary": "AI/ML Engineer with 5+ years of experience in Python, SQL, Spark, Kafka, and cloud platforms (AWS, Azure, GCP).",
   "avatarUrl": "/avatar.png",
   "highlights": [
     {
       "icon": "fas fa-briefcase",
-      "text": "Professional Experience"
+      "text": "5+ Years Experience"
     },
     {
       "icon": "fas fa-code",
-      "text": "Technical Expertise"
+      "text": "ML & AI Specialist"
     },
     {
       "icon": "fas fa-users",
-      "text": "Team Collaboration"
+      "text": "Cross-Team Collaboration"
     }
   ],
   "cta": {
@@ -29,8 +28,8 @@
       },
       {
         "text": "View My Work",
-        "href": "#projects",
-        "type": "secondary",
+        "href": "#portfolio",
+        "type": "outline",
         "external": false
       }
     ]
@@ -40,6 +39,21 @@
       "platform": "Email",
       "url": "mailto:rambarkideepak@gmail.com",
       "icon": "fas fa-envelope"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rambarki-deepak/",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/deepak-rambarki",
+      "icon": "fab fa-github"
+    },
+    {
+      "platform": "Phone",
+      "url": "tel:+19408437994",
+      "icon": "fas fa-phone"
     }
   ]
 }

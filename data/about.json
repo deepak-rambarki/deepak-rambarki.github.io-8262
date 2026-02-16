@@ -30,6 +30,7 @@
   ],
   "resume": {
     "text": "Download Resume",
-    "href": "assets/files/resume.pdf"
+    "href": "assets/files/resume.pdf",
+    "download": "Deepak_Rambarki_AI_Engineer_Resume.pdf"
   }
 }

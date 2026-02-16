@@ -1,242 +1,90 @@
 {
-  "_instructions": "Organize your skills with proficiency levels (0-100).",
   "sectionTitle": "Skills & Expertise",
   "subtitle": "Technologies and tools I work with",
   "categories": [
     {
       "name": "Programming Languages",
       "icon": "fas fa-code",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=300&q=80&fit=crop",
       "skills": [
-        {
-          "name": "Python",
-          "level": 83
-        },
-        {
-          "name": "R",
-          "level": 90
-        },
-        {
-          "name": "Java",
-          "level": 80
-        },
-        {
-          "name": "C++",
-          "level": 80
-        },
-        {
-          "name": "SQL",
-          "level": 83
-        },
-        {
-          "name": "NoSQL (MongoDB, Cassandra, DynamoDB)",
-          "level": 80
-        }
+        { "name": "Python" },
+        { "name": "R" },
+        { "name": "Java" },
+        { "name": "C++" },
+        { "name": "SQL" },
+        { "name": "NoSQL" }
       ]
     },
     {
-      "name": "Frameworks & Libraries",
-      "icon": "fas fa-toolbox",
+      "name": "ML & Deep Learning",
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=300&q=80&fit=crop",
       "skills": [
-        {
-          "name": "TensorFlow",
-          "level": 80
-        },
-        {
-          "name": "PyTorch",
-          "level": 80
-        },
-        {
-          "name": "Keras",
-          "level": 80
-        },
-        {
-          "name": "XGBoost",
-          "level": 85
-        },
-        {
-          "name": "ONNX",
-          "level": 82
-        },
-        {
-          "name": "BiLSTM",
-          "level": 83
-        },
-        {
-          "name": "CNNs",
-          "level": 80
-        },
-        {
-          "name": "RNNs",
-          "level": 80
-        },
-        {
-          "name": "Transformers",
-          "level": 80
-        },
-        {
-          "name": "BERT",
-          "level": 80
-        },
-        {
-          "name": "GPT",
-          "level": 80
-        },
-        {
-          "name": "T5",
-          "level": 80
-        },
-        {
-          "name": "spaCy",
-          "level": 80
-        },
-        {
-          "name": "NLTK",
-          "level": 80
-        },
-        {
-          "name": "Apache Spark",
-          "level": 80
-        },
-        {
-          "name": "Spark Streaming",
-          "level": 83
-        },
-        {
-          "name": "Apache Kafka",
-          "level": 83
-        },
-        {
-          "name": "Hadoop",
-          "level": 80
-        },
-        {
-          "name": "MLflow",
-          "level": 83
-        },
-        {
-          "name": "DVC",
-          "level": 80
-        }
+        { "name": "TensorFlow" },
+        { "name": "PyTorch" },
+        { "name": "Keras" },
+        { "name": "XGBoost" },
+        { "name": "ONNX" },
+        { "name": "CNNs" },
+        { "name": "RNNs" },
+        { "name": "BiLSTM" },
+        { "name": "Transformers" }
       ]
     },
     {
-      "name": "Tools & Platforms",
-      "icon": "fas fa-wrench",
+      "name": "NLP & LLMs",
+      "icon": "fas fa-comment-dots",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=600&h=300&q=80&fit=crop",
       "skills": [
-        {
-          "name": "AWS SageMaker",
-          "level": 83
-        },
-        {
-          "name": "Azure ML",
-          "level": 83
-        },
-        {
-          "name": "Google AI Platform",
-          "level": 80
-        },
-        {
-          "name": "SageMaker Pipelines",
-          "level": 83
-        },
-        {
-          "name": "Lambda",
-          "level": 83
-        },
-        {
-          "name": "Docker",
-          "level": 83
-        },
-        {
-          "name": "Kubernetes",
-          "level": 83
-        },
-        {
-          "name": "Redshift",
-          "level": 83
-        },
-        {
-          "name": "Snowflake",
-          "level": 83
-        },
-        {
-          "name": "Git",
-          "level": 80
-        },
-        {
-          "name": "GitHub",
-          "level": 80
-        },
-        {
-          "name": "GitLab",
-          "level": 80
-        },
-        {
-          "name": "Bitbucket",
-          "level": 80
-        },
-        {
-          "name": "Agile Methodologies",
-          "level": 80
-        },
-        {
-          "name": "JIRA",
-          "level": 80
-        },
-        {
-          "name": "Power BI",
-          "level": 83
-        },
-        {
-          "name": "Streamlit",
-          "level": 82
-        },
-        {
-          "name": "dbt",
-          "level": 83
-        }
+        { "name": "BERT" },
+        { "name": "GPT" },
+        { "name": "T5" },
+        { "name": "spaCy" },
+        { "name": "NLTK" },
+        { "name": "Hugging Face" }
       ]
     },
     {
-      "name": "Technical Skills",
-      "icon": "fas fa-laptop-code",
+      "name": "Data Engineering",
+      "icon": "fas fa-database",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=300&q=80&fit=crop",
       "skills": [
-        {
-          "name": "Machine Learning & Deep Learning",
-          "level": 80
-        },
-        {
-          "name": "AI Models & Techniques",
-          "level": 80
-        },
-        {
-          "name": "Model Evaluation & Explainability",
-          "level": 80
-        },
-        {
-          "name": "Natural Language Processing (NLP)",
-          "level": 80
-        },
-        {
-          "name": "Data Engineering & Processing",
-          "level": 80
-        },
-        {
-          "name": "MLOps & Deployment",
-          "level": 80
-        },
-        {
-          "name": "Cloud Platforms & Tools",
-          "level": 80
-        },
-        {
-          "name": "Ethics & Compliance",
-          "level": 80
-        },
-        {
-          "name": "Visualization & Reporting",
-          "level": 80
-        }
+        { "name": "Apache Spark" },
+        { "name": "Spark Streaming" },
+        { "name": "Apache Kafka" },
+        { "name": "Hadoop" },
+        { "name": "Redshift" },
+        { "name": "Snowflake" },
+        { "name": "dbt" }
+      ]
+    },
+    {
+      "name": "Cloud & MLOps",
+      "icon": "fas fa-cloud",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=300&q=80&fit=crop",
+      "skills": [
+        { "name": "AWS SageMaker" },
+        { "name": "Azure ML" },
+        { "name": "Google AI Platform" },
+        { "name": "Docker" },
+        { "name": "Kubernetes" },
+        { "name": "Lambda" },
+        { "name": "MLflow" },
+        { "name": "DVC" }
+      ]
+    },
+    {
+      "name": "Tools & Workflow",
+      "icon": "fas fa-tools",
+      "image": "https://images.unsplash.com/photo-1531498860502-7c67cf02f657?w=600&h=300&q=80&fit=crop",
+      "skills": [
+        { "name": "Git / GitHub" },
+        { "name": "GitLab" },
+        { "name": "Bitbucket" },
+        { "name": "JIRA" },
+        { "name": "Power BI" },
+        { "name": "Streamlit" },
+        { "name": "Agile" }
       ]
     }
   ]

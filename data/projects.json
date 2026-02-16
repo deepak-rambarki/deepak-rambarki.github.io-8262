@@ -1,5 +1,4 @@
 {
-  "_instructions": "Add your projects.",
   "sectionTitle": "Featured Work",
   "subtitle": "A selection of projects I've designed and developed",
   "projects": [
@@ -7,16 +6,17 @@
       "title": "MEDCOMPARE – AI Powered Medication Data Benchmarking Tool",
       "category": "Data Science",
       "description": "Built a real-time Streamlit tool benchmarking medication data from LLMs using semantic similarity, fuzzy matching, and biostatistics; aligned outputs with FDA and RxNorm standards; supported batch evaluation, scoring, and FHIR exports for clinical review.",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&q=80&fit=crop",
       "tags": [
         "Streamlit",
         "LLMs",
-        "FHIR"
+        "FHIR",
+        "NLP"
       ],
-      "icon": "fas fa-brain",
+      "icon": "fas fa-pills",
       "highlights": [
-        "User-centered design approach",
-        "Responsive and accessible"
+        "FDA & RxNorm aligned",
+        "Batch evaluation & FHIR exports"
       ],
       "links": {
         "live": "",
@@ -28,17 +28,19 @@
     },
     {
       "title": "Classification with XGBoost + ONNX Deployment",
-      "category": "Software Development",
+      "category": "Machine Learning",
       "description": "Developed an XGBoost classifier on 1.2M entries, outperforming baselines; applied scaling, outlier handling, and data prep; converted model to ONNX for real-time edge/cloud deployment, showcasing scalable predictive analytics in IoT and embedded environments.",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&q=80&fit=crop",
       "tags": [
         "XGBoost",
-        "ONNX"
+        "ONNX",
+        "Python",
+        "IoT"
       ],
-      "icon": "fas fa-project-diagram",
+      "icon": "fas fa-chart-line",
       "highlights": [
-        "User-centered design approach",
-        "Responsive and accessible"
+        "1.2M dataset classification",
+        "Edge/cloud ONNX deployment"
       ],
       "links": {
         "live": "",
@@ -46,92 +48,74 @@
         "case_study": "",
         "prototype": ""
       },
-      "featured": false
+      "featured": true
     },
     {
-      "title": "financial_advisor_llm",
-      "category": "Backend Development",
-      "description": "Learning project built with modern web technologies",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "title": "Financial Advisor LLM",
+      "category": "AI / NLP",
+      "description": "An AI-powered financial advisory application leveraging Large Language Models to provide intelligent financial guidance and analysis using modern NLP techniques.",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&q=80&fit=crop",
       "tags": [
         "Python",
-        "Jupyter Notebook",
-        "Makefile"
+        "LLM",
+        "Finance",
+        "NLP"
       ],
-      "icon": "fas fa-project-diagram",
+      "icon": "fas fa-coins",
       "highlights": [
-        "User-centered design approach",
-        "Responsive and accessible"
+        "LLM-powered financial insights",
+        "Modern NLP pipeline"
       ],
       "links": {
-        "live": "https://github.com/deepak-rambarki/financial_advisor_llm",
+        "live": "",
         "github": "https://github.com/deepak-rambarki/financial_advisor_llm",
         "case_study": "",
         "prototype": ""
       },
-      "featured": false
+      "featured": true
     },
     {
-      "title": "yolov10",
-      "category": "Backend Development",
-      "description": "Modern web application demonstrating clean code principles",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "title": "YOLOv10 – Real-Time Object Detection",
+      "category": "Computer Vision",
+      "description": "Implementation and experimentation with YOLOv10, a state-of-the-art real-time object detection model. Features containerized deployment with Docker for scalable inference pipelines.",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=600&h=400&q=80&fit=crop",
       "tags": [
         "Python",
-        "Shell",
-        "Dockerfile"
+        "YOLO",
+        "Docker",
+        "Computer Vision"
       ],
-      "icon": "fas fa-project-diagram",
+      "icon": "fas fa-eye",
       "highlights": [
-        "User-centered design approach",
-        "Responsive and accessible"
+        "Real-time object detection",
+        "Dockerized deployment"
       ],
       "links": {
-        "live": "https://github.com/deepak-rambarki/yolov10",
+        "live": "",
         "github": "https://github.com/deepak-rambarki/yolov10",
         "case_study": "",
         "prototype": ""
       },
-      "featured": false
+      "featured": true
     },
     {
-      "title": "text-analysis-using-nlp-streamlit",
-      "category": "Backend Development",
-      "description": "Personal development project using industry best practices",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "title": "Sentiment Analysis Web App with SageMaker",
+      "category": "Machine Learning",
+      "description": "End-to-end sentiment analysis web application deployed using AWS SageMaker. Combines a trained ML model with a web interface for real-time text sentiment prediction at scale.",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&q=80&fit=crop",
       "tags": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
-      "highlights": [
-        "User-centered design approach",
-        "Responsive and accessible"
-      ],
-      "links": {
-        "live": "https://github.com/deepak-rambarki/text-analysis-using-nlp-streamlit",
-        "github": "https://github.com/deepak-rambarki/text-analysis-using-nlp-streamlit",
-        "case_study": "",
-        "prototype": ""
-      },
-      "featured": false
-    },
-    {
-      "title": "sentiment-analysis-webapp-sagemaker",
-      "category": "Backend Development",
-      "description": "Interactive application built for continuous learning",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
-      "tags": [
-        "Jupyter Notebook",
         "Python",
+        "AWS SageMaker",
+        "Jupyter",
         "HTML"
       ],
-      "icon": "fas fa-brain",
+      "icon": "fas fa-comment-dots",
       "highlights": [
-        "User-centered design approach",
-        "Responsive and accessible"
+        "AWS SageMaker deployment",
+        "Real-time sentiment prediction"
       ],
       "links": {
-        "live": "https://github.com/deepak-rambarki/sentiment-analysis-webapp-sagemaker",
+        "live": "",
         "github": "https://github.com/deepak-rambarki/sentiment-analysis-webapp-sagemaker",
         "case_study": "",
         "prototype": ""
@@ -139,21 +123,46 @@
       "featured": false
     },
     {
-      "title": "fraud-detection-using-machine-learning",
-      "category": "Backend Development",
-      "description": "Personal project for exploring modern development practices",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "title": "Text Analysis Using NLP & Streamlit",
+      "category": "NLP",
+      "description": "An interactive NLP-powered text analysis application built with Streamlit. Provides text processing, entity extraction, and linguistic analysis through an intuitive web interface.",
+      "image": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=600&h=400&q=80&fit=crop",
       "tags": [
-        "Jupyter Notebook",
-        "Python"
+        "Python",
+        "NLP",
+        "Streamlit"
       ],
-      "icon": "fas fa-project-diagram",
+      "icon": "fas fa-file-alt",
       "highlights": [
-        "User-centered design approach",
-        "Responsive and accessible"
+        "Interactive Streamlit UI",
+        "NLP text processing pipeline"
       ],
       "links": {
-        "live": "https://github.com/deepak-rambarki/fraud-detection-using-machine-learning",
+        "live": "",
+        "github": "https://github.com/deepak-rambarki/text-analysis-using-nlp-streamlit",
+        "case_study": "",
+        "prototype": ""
+      },
+      "featured": false
+    },
+    {
+      "title": "Fraud Detection Using Machine Learning",
+      "category": "Machine Learning",
+      "description": "Machine learning pipeline for detecting fraudulent transactions. Implements data preprocessing, feature engineering, and classification models to identify anomalous financial activity.",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&q=80&fit=crop",
+      "tags": [
+        "Python",
+        "Jupyter",
+        "Scikit-learn",
+        "Pandas"
+      ],
+      "icon": "fas fa-shield-alt",
+      "highlights": [
+        "Anomaly detection pipeline",
+        "Financial fraud classification"
+      ],
+      "links": {
+        "live": "",
         "github": "https://github.com/deepak-rambarki/fraud-detection-using-machine-learning",
         "case_study": "",
         "prototype": ""
@@ -161,18 +170,23 @@
       "featured": false
     },
     {
-      "title": "model-interpretability-for-machine-learning-models",
-      "category": "Development",
-      "description": "Portfolio project showcasing development capabilities",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
-      "tags": [],
-      "icon": "fas fa-project-diagram",
+      "title": "Model Interpretability for ML Models",
+      "category": "Machine Learning",
+      "description": "Exploring interpretability and explainability techniques for machine learning models. Implements SHAP, LIME, and other XAI methods to understand and visualize model decision-making.",
+      "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&h=400&q=80&fit=crop",
+      "tags": [
+        "Python",
+        "SHAP",
+        "LIME",
+        "XAI"
+      ],
+      "icon": "fas fa-search",
       "highlights": [
-        "User-centered design approach",
-        "Responsive and accessible"
+        "Explainable AI techniques",
+        "Model transparency & visualization"
       ],
       "links": {
-        "live": "https://github.com/deepak-rambarki/model-interpretability-for-machine-learning-models",
+        "live": "",
         "github": "https://github.com/deepak-rambarki/model-interpretability-for-machine-learning-models",
         "case_study": "",
         "prototype": ""
@@ -180,63 +194,24 @@
       "featured": false
     },
     {
-      "title": "brain-mapping-eeg-classification",
-      "category": "Development",
-      "description": "Brain Mapping using EEG Signal Classification - A 2013-era implementation using 2D DWT and pattern matching for normal/abnormal EEG classification",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
-      "tags": [],
-      "icon": "fas fa-project-diagram",
-      "highlights": [
-        "User-centered design approach",
-        "Responsive and accessible"
-      ],
-      "links": {
-        "live": "https://github.com/deepak-rambarki/brain-mapping-eeg-classification",
-        "github": "https://github.com/deepak-rambarki/brain-mapping-eeg-classification",
-        "case_study": "",
-        "prototype": ""
-      },
-      "featured": false
-    },
-    {
-      "title": "deepak-rambarki.github.io",
-      "category": "Data Science",
-      "description": "GitHub repository: deepak-rambarki.github.io",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
+      "title": "Brain Mapping – EEG Signal Classification",
+      "category": "Signal Processing",
+      "description": "Brain mapping using EEG signal classification with 2D Discrete Wavelet Transform and pattern matching for normal/abnormal EEG classification. A biomedical signal processing implementation.",
+      "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&h=400&q=80&fit=crop",
       "tags": [
-        "HTML",
-        "CSS",
-        "SCSS",
-        "JavaScript",
-        "Shell"
+        "Signal Processing",
+        "DWT",
+        "EEG",
+        "Pattern Matching"
       ],
       "icon": "fas fa-brain",
       "highlights": [
-        "User-centered design approach",
-        "Responsive and accessible"
+        "2D DWT signal processing",
+        "Normal/abnormal EEG classification"
       ],
       "links": {
-        "live": "https://github.com/deepak-rambarki/deepak-rambarki.github.io",
-        "github": "https://github.com/deepak-rambarki/deepak-rambarki.github.io",
-        "case_study": "",
-        "prototype": ""
-      },
-      "featured": false
-    },
-    {
-      "title": "html-css-js-Deepak-portfolio-1",
-      "category": "Development",
-      "description": "GitHub repository: html-css-js-Deepak-portfolio-1",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&q=80&fit=crop",
-      "tags": [],
-      "icon": "fas fa-project-diagram",
-      "highlights": [
-        "User-centered design approach",
-        "Responsive and accessible"
-      ],
-      "links": {
-        "live": "https://github.com/deepak-rambarki/html-css-js-Deepak-portfolio-1",
-        "github": "https://github.com/deepak-rambarki/html-css-js-Deepak-portfolio-1",
+        "live": "",
+        "github": "https://github.com/deepak-rambarki/brain-mapping-eeg-classification",
         "case_study": "",
         "prototype": ""
       },

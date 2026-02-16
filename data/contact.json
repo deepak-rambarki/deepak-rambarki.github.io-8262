@@ -1,5 +1,4 @@
 {
-  "_instructions": "Contact section.",
   "sectionTitle": "Let's Work Together",
   "subtitle": "Have a project in mind? Let's create something amazing together!",
   "contactInfo": [
@@ -9,6 +8,13 @@
       "value": "rambarkideepak@gmail.com",
       "href": "mailto:rambarkideepak@gmail.com",
       "icon": "fas fa-envelope"
+    },
+    {
+      "type": "phone",
+      "label": "Phone",
+      "value": "(940) 843-7994",
+      "href": "tel:+19408437994",
+      "icon": "fas fa-phone"
     },
     {
       "type": "location",
@@ -29,6 +35,18 @@
       "url": "mailto:rambarkideepak@gmail.com",
       "icon": "fas fa-envelope",
       "username": "rambarkideepak@gmail.com"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rambarki-deepak/",
+      "icon": "fab fa-linkedin",
+      "username": "rambarki-deepak"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/deepak-rambarki",
+      "icon": "fab fa-github",
+      "username": "deepak-rambarki"
     }
   ],
   "form": {
