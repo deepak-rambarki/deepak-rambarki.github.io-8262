@@ -1,14 +1,14 @@
 {
   "_instructions": "Site-wide configuration and meta tags. Update these values for SEO and branding.",
   "meta": {
-    "title": "Deepak Rambarki | AI Engineer",
-    "description": "Deepak Rambarki - AI Engineer | Portfolio",
+    "title": "Deepak Rambarki | AI/ML Engineer",
+    "description": "Deepak Rambarki - AI/ML Engineer | Portfolio",
     "author": "Deepak Rambarki",
-    "keywords": "AI Engineer, Portfolio, Deepak Rambarki"
+    "keywords": "AI/ML Engineer, Portfolio, Deepak Rambarki"
   },
   "branding": {
     "name": "Deepak Rambarki",
-    "tagline": "AI Engineer"
+    "tagline": "AI/ML Engineer"
   },
   "settings": {
     "year": 2026,
