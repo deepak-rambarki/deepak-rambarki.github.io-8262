@@ -3,8 +3,8 @@
   "sectionTitle": "About Me",
   "image": "assets/images/about.jpg",
   "content": [
-    "Data Engineer with 5+ years of experience designing and maintaining scalable batch and real-time data pipelines for high-volume transactional systems. Strong expertise in Python, SQL, Apache Spark, Kafka, Airflow, and dbt, with hands-on experience building cloud-native data platforms on AWS, Azure, and GCP.",
-    "Proven ability to process 10M+ daily records, model enterprise data warehouses, and deliver reliable, governed datasets supporting fraud analytics, risk reporting, and business intelligence. Adept at collaborating with Risk, Compliance, and Analytics teams to ensure data quality, security, and performance at scale."
+    "AI/ML Engineer with 5+ years of experience building and deploying production machine learning systems for fraud detection and personalization at scale (3M+ daily transactions). Delivered measurable business impact including 19% fraud reduction and 28% revenue uplift through real-time inference, advanced modeling, and MLOps on AWS.",
+    "Hands-on expertise in Python, deep learning, feature engineering, and scalable cloud-native architectures. Experienced in integrating Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and agentic workflows into intelligent decision-support systems. Strong ownership across the full ML lifecycle from model development to deployment, monitoring, and governance."
   ],
   "highlights": [
     {
